@@ -11,7 +11,6 @@ local stateEvent = Instance.new("RemoteEvent"); stateEvent.Name = "State"; state
 local itemEvent = Instance.new("RemoteEvent"); itemEvent.Name = "UseItem"; itemEvent.Parent = remotes
 
 local world = Instance.new("Folder"); world.Name = "VelocityWorld"; world.Parent = workspace
-workspace.FallenPartsDestroyHeight = -80
 
 local function part(name, size, cf, color, material, parent)
     local p = Instance.new("Part")
